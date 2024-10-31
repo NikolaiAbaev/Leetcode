@@ -8,7 +8,6 @@ class Solution:
                 r -= 1
 
             else:
-                print(f'comparing {s[l]} to {s[r]}')
                 if s[l].lower() == s[r].lower():
                     l += 1
                     r -= 1 
